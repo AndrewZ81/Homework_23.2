@@ -1,6 +1,7 @@
 from flask import request
 from constants import CMDS_TO_EXECUTE
 
+
 def iterate_file(file_with_logs):
     with open(file_with_logs) as file:
         for i in file:
